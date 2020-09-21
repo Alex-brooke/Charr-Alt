@@ -46,6 +46,12 @@ li, #menuLogo {
     padding: 0 10px 0 0;
 }
 
+
+li a:hover {
+  font-weight: 900;
+}
+
+
 /* End Of Navigation */
 
 
@@ -162,6 +168,32 @@ li, #menuLogo {
     border-radius: 15px;
 }
 
+
+        /* We Imgs */
+
+#Con_Img {
+    background-image: url(/assets/imgs/consult.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#Cre_Img {
+    background-image: url(/assets/imgs/creative.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#Wor_Img {
+    background-image: url(/assets/imgs/workshops.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#Exp_Img {
+    background-image: url(/assets/imgs/alien.jpg);
+    background-position: right;
+    background-size: cover;
+}
 
 
 
