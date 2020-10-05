@@ -6,368 +6,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charrmello Home</title>
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/assets/webfontkit_FivoSans_Main/stylesheet.css">
 </head>
 
 <body>
     <!-- Nav Bar -->
     <div class="navWrapper">
-        <nav>
-            <!-- Main Menu-->
-            <ul class="mainMenu">
-                <li class="menuLogo">
-                    <a href="#">
-                        <img id="menuLogo" src="assets/icons/Logo_000000_charrmello.png" style="width: 45px;"
-                            alt="logo">
-                    </a>
-                </li>
-                <li class="menuItem">
-                    <a href="#">
-                        Home
-                    </a>
-                </li>
-                <li class="menuItem">
-                    <a href="#">
-                        Gallery
-                    </a>
-                </li>
-                <li class="menuItem">
-                    <a href="#">
-                        Media
-                    </a>
-                </li>
-                <li class="menuItem" style="float: right;">
-                    <a href="#">
-                        Lets Talk
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <div class="topnav" id="mainNav">
+            <a href="javascript:history.go(0)" id="Charrmello">
+                <img id="menuLogo" src="assets/icons/Logo_000000_charrmello.png" style="width: 45px;" alt="logo">
+            </a>
+            <a href="#home" class="menuItem">Home</a>
+            <a href="#gallery" class="menuItem">Gallery</a>
+            <a href="#media" class="menuItem">Media</a>
+            <a href="#getInTouch" class="active" id="CTA" >Lets Talk</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img id="burgerMenu" src="assets/icons/Burger_Right_charrmello.png" style="width: 45px;" alt="logo">
+            </a>
+        </div>
     </div>
 
-    <!-- Landing Page -->
-    <header>
-        <!-- Rainbow Title 1 
-        <div class="RainbowTitle_Top">
-            <div class="Dgreen">
-                <h1 id="Dgreen">
-                    Charrmello
-                </h1>
+    <!-- Main Content-->
+    <main>
+        <div class="ContentWrapper">
+            <div id="mainContent">
+                <div id="Title">
+                    <h1 id="mainTitle">Hey, we're <br> <span id="mello">Charrmello</span></h1>
+                    <h4 id="subTitle">(Charr-Mello)</h4>
+                </div>
+                <!-- Story Start of Story Line (sl) -->
+                <div class="sl_card" id="sl_1">
+                    <p>
+                        We care about experiences, and telling great stories.
+                    </p>
+                </div>
+                <!-- Vertical Line -->
+                <div class="verticalLine"></div>
+                <!--  End Vertical Line -->
+                <div class="sl_card" id="sl_2">
+                    <p>
+                        All by helping people with Product development, Marketing strategy and experience design.
+                    </p>
+                </div>
+                <!-- Vertical Line -->
+                <div class="verticalLine"></div>
+                <!--  End Vertical Line -->
+                <div class="sl_card" id="sl_3">
+                    <p>
+                        Cake is cool. What’s even cooler is our vision to little by little, make this world a better and
+                        more interesting place to live.
+                    </p>
+                </div>
+                <!-- Vertical Line -->
+                <div class="verticalLine"></div>
+                <!--  End Vertical Line -->
+                <div class="sl_card" id="sl_4">
+                    <p>
+                        We love startups, we also love SME’s. Hey, shout out to you small business too! Actually, we
+                        just like people with great ideas and a vision.
+                    </p>
+                </div>
+                <!-- Vertical Line -->
+                <div class="verticalLine"></div>
+                <!--  End Vertical Line -->
+                <div class="sl_card" id="sl_5">
+                    <p>
+                        Athough we like to talk, we’re more big on listening. We’d love to listen to what project you
+                        have in mind.
+                    </p>
+                </div>
+                <!-- Vertical Line -->
+                <div class="verticalLine"></div>
+                <!--  End Vertical Line -->
+
+                <!-- -->
+                <div></div>
             </div>
-            <div class="orangeTop">
-                <h1 id="orangeTop">
-                    Charrmello
-                </h1>
-            </div>
-            <div class="Lgreen">
-                <h1 id="Lgreen">
-                    Charrmello
-                </h1>
-            </div>
-        </div>-->
-        <!-- Cover Image -->
-        <div class="coverImage">
-            <div class="ContentWrapper">
-                <div id="coverTitle">
-                    <h2>
-                        Hey we're Charrmello.
-                    </h2>
-                    <h3>
-                        We bring stories to life &
+        </div>
+    </main>
+    <!-- End Of Main Content -->
+
+
+
+    <!-- Contact -->
+    <section class="contactSection">
+        <div class="ContentWrapper">
+            <div id="contactText">
+                <!-- sign off -->
+                <div>
+                    <h1 id="getInTouch">
+                        So, we'd love to hear from
                         <br>
-                        make them last a lifetime.
+                        you. We're lonley, okay!
+                    </h1>
+                </div>
+                <!-- Contact Details-->
+                <div id="contactInfo">
+                    <!-- Call-->
+                    <div class="contactCard" id="call">
+                        <div>
+                            <h3>
+                                Call us
+                                <br>
+                                with this:
+                            </h3>
+                        </div>
+                        <div class="contactDetails">
+                            <h3>
+                                +447703661181
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- Email-->
+                    <div class="contactCard" id="email">
+                        <div>
+                            <h3>
+                                Email us
+                                <br>
+                                with this:
+                            </h3>
+                        </div>
+                        <div class="contactDetails">
+                            <h3>
+                                hey@charrmello.com
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- Fax-->
+                    <div class="contactCard" id="fax">
+                        <div>
+                            <h3>
+                                Fax us
+                                <br>
+                                with this:
+                            </h3>
+                        </div>
+                        <div>
+                            <h3>
+                                Wait, no, leave that one.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Wanna Join? -->
+                <div>
+                    <h1>
+                        Wanna join the squad?
+                        <br>
+                        Email us, yo!
+                    </h1>
+                </div>
+                <div class="contactDetails">
+                    <h3 class="joinUs">
+                        Make your opening line a fun but
+                        <br>
+                        random fact. It's our one law.
                     </h3>
                 </div>
             </div>
         </div>
-        <!-- Rainbow Title 2 -->
-        <div class="RainbowTitle_Bottmom"></div>
-    </header>
-
-    <!-- Start Main Content -->
-    <main id="shuffleContent">
-        <!-- What we do -->
-        <section class="WeSection">
-            <div class="ContentWrapper">
-                <div class="weContent">
-                    <!-- "We" Heading -->
-                    <div>
-                        <h1>
-                            We
-                        </h1>
-                    </div>
-                    <!-- Image Cards -->
-                    <div class="weCards">
-                        <!-- Img 1-->
-                        <div class="Card">
-                            <div class="weImgs" id="Con_Img"></div>
-                            <!-- Heading 1 -->
-                            <div class="weHeadings">
-                                <h3>
-                                    Consult
-                                </h3>
-                            </div>
-                        </div>
-                        <!-- Img 2-->
-                        <div class="Card">
-                            <div class="weImgs" id="Cre_Img"></div>
-                            <!-- Heading 2 -->
-                            <div class="weHeadings">
-                                <h3>
-                                    Create
-                                </h3>
-                            </div>
-                        </div>
-                        <!-- Img 3-->
-                        <div class="Card">
-                            <div class="weImgs" id="Wor_Img"></div>
-                            <!-- Heading 3 -->
-                            <div class="weHeadings">
-                                <h3>
-                                    Do Workshop
-                                </h3>
-                            </div>
-                        </div>
-                        <!-- Img 4-->
-                        <div class="Card">
-                            <div class="weImgs" id="Exp_Img"></div>
-                            <!-- Heading 4 -->
-                            <div class="weHeadings">
-                                <h3>
-                                    Expeirment
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Services -->
-        <section class="servicesSection">
-            <div class="ContentWrapper">
-                <div class="servicesContnet">
-                    <!-- Serivices Title-->
-                    <div>
-                        <h1>
-                            And our services include
-                        </h1>
-                    </div>
-                    <!-- Services List -->
-                    <div class="servicesList">
-                        <div id="subList">
-                            <!-- Item 1-->
-                            <h3>
-                                UX/UI
-                            </h3>
-                            <!-- Item 2 -->
-                            <h3>
-                                Marketing
-                            </h3>
-                            <!-- Item 3 -->
-                            <h3>
-                                Prototyping
-                            </h3>
-                        </div>
-                        <div id="subList">
-                            <!-- Item 4 -->
-                            <h3>
-                                Business
-                            </h3>
-                            <!-- Item 5 -->
-                            <h3>
-                                Contnet Creation
-                            </h3>
-                            <!-- Item 6 -->
-                            <h3>
-                                Design Development
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Types of clients -->
-        <section class="clientSection">
-            <div class="ContentWrapper">
-                <div class="clientContent">
-                    <!-- "perfect for" Heading -->
-                    <div id="clientHeading">
-                        <h1>
-                            Perfect for
-                        </h1>
-                    </div>
-                    <!-- Image Cards -->
-                    <div class="clientsCards">
-
-                        <!-- Img 1-->
-                        <div class="PerfImgs">
-                            <div id="StartUp_Img">
-                                <img class="icons" src="/assets/imgs/startup.png" alt="Startup Rocket">
-                            </div>
-                            <!-- Heading 1 -->
-                            <div class="perfHeadings">
-                                <h3>
-                                    Startups
-                                </h3>
-                            </div>
-                        </div>
-
-                        <!-- Img 2-->
-                        <div class="PerfImgs" id="CORP_Img">
-                            <div>
-                                <img class="icons" src="/assets/imgs/corporation.png" alt="">
-                            </div>
-                            <!-- Heading 2 -->
-                            <div class="perfHeadings">
-                                <h3>
-                                    Organisations
-                                </h3>
-                            </div>
-                        </div>
-
-                        <!-- Img 3-->
-                        <div class="PerfImgs">
-                            <div id="SMB_Img">
-                                <img class="icons" src="/assets/imgs/shop.png" alt="">
-                            </div>
-                            <!-- Heading 3 -->
-                            <div class="perfHeadings">
-                                <h3>
-                                    Small Business
-                                </h3>
-                            </div>
-                        </div>
-
-                        <!-- Img 4-->
-                        <div class="PerfImgs">
-                            <div id="UFO_Img">
-                                <img class="icons" src="/assets/imgs/ufo.png" alt="">
-                            </div>
-                            <!-- Heading 4 -->
-                            <div class="perfHeadings">
-                                <h3>
-                                    Aliens
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Our why -->
-
-
-        <section class="whySection">
-            <div class="ContentWrapper">
-                <div id="whyText">
-                    <!-- "why" title -->
-                    <div>
-                        <h1>
-                            Our "why" is
-                        </h1>
-                    </div>
-                    <!-- about -->
-                    <div id="ourWhy">
-                        <h3 class="why">
-                            that we want to empower, educate and invole people.
-                        </h3>
-                        <h3 class="why">
-                            With those values in mind Charrmello was formed.
-                        </h3>
-                        <h3 class="why">
-                            A design company that experiments with, and helps people make, incredible immersive products
-                            and
-                            experiences.
-                        </h3>
-                        <h3 class="why">
-                            Off the back of this we hope to, little by little, make this world a better and more
-                            interesting
-                            place to live.
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact -->
-        <section class="contactSection">
-            <div class="ContentWrapper">
-                <div id="contactText">
-                    <!-- sign off -->
-                    <div>
-                        <h1>
-                            Now, we'd love to hear from
-                            <br>
-                            you. We're lonley, okay!
-                        </h1>
-                    </div>
-                    <!-- Contact Details-->
-                    <div id="contactInfo">
-                        <!-- Call-->
-                        <div class="contactCard" id="call">
-                            <div>
-                                <h3>
-                                    Call us
-                                    <br>
-                                    with this:
-                                </h3>
-                            </div>
-                            <div class="contactDetails">
-                                <h3>
-                                    +447703661181
-                                </h3>
-                            </div>
-                        </div>
-                        <!-- Email-->
-                        <div class="contactCard" id="email">
-                            <div>
-                                <h3>
-                                    Email us
-                                    <br>
-                                    with this:
-                                </h3>
-                            </div>
-                            <div class="contactDetails">
-                                <h3>
-                                    hey@charrmello.com
-                                </h3>
-                            </div>
-                        </div>
-                        <!-- Fax-->
-                        <div class="contactCard" id="fax">
-                            <div>
-                                <h3>
-                                    Fax us
-                                    <br>
-                                    with this:
-                                </h3>
-                            </div>
-                            <div>
-                                <h3>
-                                    Wait, no, leave that one.
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Wanna Join? -->
-                    <div>
-                        <h1>
-                            Wanna join the squad?
-                            <br>
-                            Email us, yo!
-                        </h1>
-                    </div>
-                    <div class="contactDetails">
-                        <h3>
-                            Make your opening line a fun but
-                            <br>
-                            random fact. It's our one law.
-                        </h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    </section>
     <!-- Footer -->
     <footer id="shuffleContent" class="FotterSection">
         <div class="ContentWrapper">
@@ -378,7 +176,9 @@
                     </p>
                 </div>
                 <div class="footerLogo">
-                    <img id="footerLogo" src="/assets/icons/Logo_Full Colour_charrmello.png" alt="Footer Logo">
+                    <a href="#Charrmello">
+                       <img id="footerLogo" src="/assets/icons/Logo_Full Colour_charrmello.png" alt="Footer Logo"> 
+                    </a>
                 </div>
             </div>
         </div>
@@ -402,7 +202,18 @@
                 'font-size': (height / 2) + 'px',
                 'line-height': height + 'px'
             })
-        }).trigger('resize');​
+        }).trigger('resize');
+
+
+        // Responsive Menue
+        function myFunction() {
+            var x = document.getElementById("mainNav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
     </script>
 
 
