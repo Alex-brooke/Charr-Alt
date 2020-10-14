@@ -161,12 +161,14 @@ h3 {
         font-family: 'fivo_sanslight';
         font-weight: lighter;
         margin: 200px 0 0 0;
+        color: #161616;
     }
 
     .about {
         padding: 0 0 25px 0;
         font-size: 14px;
         line-height: 18px;
+        color: #161616;
     }
 
     .heading {
@@ -203,6 +205,8 @@ h3 {
       float: none;
       display: block;
       text-align: left;
+      color: #161616;
+      font-family: 'fivo_sanslight';
     }
     
   }
