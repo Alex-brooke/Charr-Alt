@@ -191,7 +191,6 @@ h3 {
         width: 180px;
         height: 180px;
         display: inline-block;
-        margin: 50px 0 0 0;
     }
 
 
@@ -212,7 +211,7 @@ h3 {
     }
 
     #summary {
-        width: 260px;
+        width: 280px !important;
         font-family: 'fivo_sanslight';
         font-weight: 16px;
         color: #161616;
