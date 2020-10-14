@@ -214,6 +214,7 @@ h3 {
         width: 200px;
         font-family: 'fivo_sanslight';
         font-weight: 16px;
+        color: #161616;
     }
 
     .elementAbout #summary {
@@ -226,6 +227,7 @@ h3 {
         font-family: 'fivo_sanslight';
         font-size: 14px;
         text-decoration: underline;
+        color: #161616;
     }
 
 
