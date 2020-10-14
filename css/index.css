@@ -179,6 +179,10 @@ h3 {
         
         text-align: center;
     }
+    
+    body {
+      background-color: #f2f2f2;
+    }
 
 
     #mainLogo {
