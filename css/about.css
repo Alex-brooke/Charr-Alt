@@ -82,7 +82,7 @@ h3 {
 /* Main Content */
 
 #mainContent {
-    width: 380px;
+    width: 360px;
     font-family: 'fivo_sanslight';
     font-weight: lighter;
     margin: 100px 0 0 0;
@@ -107,7 +107,7 @@ h3 {
 
 #email {
     color: #f2f2ff;
-    padding: 180px 0 0 0;
+    padding: 130px 0 0 0;
     text-decoration: underline;
 }
 
