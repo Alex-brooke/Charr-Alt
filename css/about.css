@@ -37,6 +37,7 @@ h3 {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: 'fivo_sanslight';
   }
   
   .topnav a:hover {
@@ -81,7 +82,7 @@ h3 {
 /* Main Content */
 
 #mainContent {
-    width: 45%;
+    width: 380px;
     font-family: 'fivo_sanslight';
     font-weight: lighter;
     margin: 100px 0 0 0;
